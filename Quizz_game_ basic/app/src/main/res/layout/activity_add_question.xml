@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="16dp"
+    android:background="@drawable/background"
+    tools:context="sakkarose.androidgame.AiLaTrieuPhu.AddQuestionActivity">
+
+    <ImageButton
+        android:id="@+id/ibtn_back"
+        android:layout_width="63dp"
+        android:layout_height="42dp"
+        android:onClick="Back2MainActivity"
+        android:clickable="true"
+        android:background="@drawable/back"
+        android:focusable="true"
+        tools:ignore="ContentDescription,UsingOnClickInXml" />
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:id="@+id/et_content_question"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/bg_blue_corner_10"
+            android:gravity="center"
+            android:paddingStart="@dimen/padding_frontend_small"
+            android:paddingTop="@dimen/padding_updown_large"
+            android:paddingEnd="@dimen/padding_frontend_small"
+            android:paddingBottom="@dimen/padding_updown_large"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/text_side_medium"
+            tools:ignore="Autofill,LabelFor,TextFields" />
+    </RelativeLayout>
+
+    <EditText
+        android:id="@+id/et_answer1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:textColor="@android:color/white"
+        android:textSize="@dimen/text_side_medium"
+        android:gravity="center"
+        android:paddingTop="@dimen/padding_updown_small"
+        android:paddingBottom="@dimen/padding_updown_small"
+        android:background="@drawable/bg_blue_corner_30"
+        tools:ignore="Autofill,LabelFor,TextFields"  />
+
+    <EditText
+        android:id="@+id/et_answer2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:textColor="@android:color/white"
+        android:textSize="@dimen/text_side_medium"
+        android:gravity="center"
+        android:paddingTop="@dimen/padding_updown_small"
+        android:paddingBottom="@dimen/padding_updown_small"
+        android:background="@drawable/bg_blue_corner_30"
+        tools:ignore="Autofill,LabelFor,TextFields"  />
+
+    <EditText
+        android:id="@+id/et_answer3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:textColor="@android:color/white"
+        android:textSize="@dimen/text_side_medium"
+        android:gravity="center"
+        android:paddingTop="@dimen/padding_updown_small"
+        android:paddingBottom="@dimen/padding_updown_small"
+        android:background="@drawable/bg_blue_corner_30"
+        tools:ignore="Autofill,LabelFor,TextFields"  />
+
+    <EditText
+        android:id="@+id/et_answer4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:textColor="@android:color/white"
+        android:textSize="@dimen/text_side_medium"
+        android:gravity="center"
+        android:paddingTop="@dimen/padding_updown_small"
+        android:paddingBottom="@dimen/padding_updown_small"
+        android:background="@drawable/bg_blue_corner_30"
+        tools:ignore="Autofill,LabelFor,TextFields"  />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="10dp"
+        android:text="@string/dap_an"
+        android:textColor="@color/white"
+        android:layout_gravity="start"
+        android:textSize="25sp"
+        android:layout_marginStart="0dp" />
+
+    <EditText
+        android:id="@+id/et_truecase"
+        android:layout_width="379dp"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        tools:ignore="Autofill,LabelFor,TextFields" />
+
+    <Button
+        android:id="@+id/btn_submit"
+        android:onClick="addquestion"
+        android:layout_width="200dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="30dp"
+        android:gravity="center"
+        android:padding="16dp"
+        android:paddingTop="@dimen/padding_updown_medium"
+        android:paddingBottom="@dimen/padding_updown_medium"
+        android:text="@string/add_question"
+        android:textColor="@android:color/white"
+        android:textSize="20sp"
+        android:background="@drawable/bg_blue_corner_30"
+        tools:ignore="UsingOnClickInXml" />
+
+
+</LinearLayout>

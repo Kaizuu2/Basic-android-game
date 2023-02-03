@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="text_side_medium">20sp</dimen>
+    <dimen name="text_side_large">30sp</dimen>
+    <dimen name="padding_updown_large">40dp</dimen>
+    <dimen name="padding_updown_small">10dp</dimen>
+    <dimen name="padding_updown_medium">20dp</dimen>
+    <dimen name="padding_frontend_medium">20dp</dimen>
+    <dimen name="padding_frontend_small">10dp</dimen>
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="margin_base">5dp</dimen>
+    <dimen name="margin_basex2">10dp</dimen>
+    <dimen name="margin_basex3">15dp</dimen>
+</resources>

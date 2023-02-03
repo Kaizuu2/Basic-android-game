@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">Ai La Trieu Phu</string>
+    <string name="ten_app">AI LÀ TRIỆU PHÚ</string>
+    <string name="add_question">ADD QUESTION</string>
+    <string name="start">START</string>
+    <string name="exit">EXIT</string>
+    <string name="huong_dan">Hướng dẫn</string>
+    <string name="nhap_ten">Nhập tên của bạn</string>
+    <string name="bat_dau">Bạn sẽ phải làm gì? Bạn sẽ phải vượt qua 15 câu hỏi của chương trình.</string>
+    <string name="ready">Rồi</string>
+    <string name="cancel">Chưa</string>
+    <string name="ask_ready">Bạn đã sẵn sàng chơi chưa ?</string>
+    <string name="finish_game">Bạn đã trở thành ai là triệu phú</string>
+    <string name="huongdan">Mỗi câu hỏi bạn có 30 giây để trả lời và sẽ có 3 mốc rất quan trọng là 5, 10 và 15 đầu tiên chúng ta phải vượt qua.</string>
+    <string name="huongdan1">Nếu bạn hoàn thành 16 câu hỏi, bạn sẽ là người thắng cuộc !</string>
+    <string name="dap_an">Đáp án : </string>
+    <string name="dung_cuoc_choi">Bạn đã dừng cuộc chơi ! Cảm ơn bạn đã tham gia.</string>
+    <string name="ban_da_thua">Khá đáng tiếc ! Bạn đã thua.</string>
+    <string name="ban_san_sang">Bạn đã sẵn sàng chưa ?</string>
+    <string name="thang_cuoc">Bạn đã trở thành ai là triệu phú</string>
+    <string name="ban_da_thua2">Bạn đã thua.</string>
+    <string name="that_tiec">Thật tiếc !!!</string>
+    <string name="so_cau_tl_dung">Số câu bạn đã trả lời đúng : </string>
+    <string name="ok">OK</string>
+    <string name="back_description">Nút trở về</string>
+</resources>
